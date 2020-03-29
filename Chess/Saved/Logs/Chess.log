@@ -1,4 +1,4 @@
-﻿Log file open, 03/28/20 21:02:36
+﻿Log file open, 03/29/20 14:05:51
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: Chess
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.069425
+LogStats: Stats thread started at 0.084104
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -121,12 +121,12 @@ LogInit:  - BufferSize = 65536
 LogOnline: OSS: Creating online subsystem instance for: NULL
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-LogInit: Build: ++UE4+Release-4.24-CL-11100242
-LogInit: Engine Version: 4.24.2-11100242+++UE4+Release-4.24
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
 LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
 LogInit: Net CL: 10570792
 LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
-LogInit: Compiled (64-bit): Jan 24 2020 02:05:53
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
 LogInit: Compiled with Visual C++: 19.16.27032.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.24
@@ -163,455 +163,456 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Engine.ini]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Engine.ini]
-[2020.03.28-20.02.36:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Engine.ini]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Engine.ini]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.03.28-20.02.36:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Engine.ini]
-[2020.03.28-20.02.36:869][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Engine.ini]
-[2020.03.28-20.02.36:874][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
-[2020.03.28-20.02.36:874][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.03.28-20.02.36:874][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.03.28-20.02.36:874][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
-[2020.03.28-20.02.36:874][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.03.28-20.02.36:874][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
-[2020.03.28-20.02.36:874][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.03.28-20.02.36:874][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.03.28-20.02.36:875][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.03.28-20.02.36:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.03.28-20.02.36:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.03.28-20.02.36:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.03.28-20.02.36:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.03.28-20.02.36:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.03.28-20.02.36:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.03.28-20.02.36:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.03.28-20.02.36:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.03.28-20.02.36:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.03.28-20.02.36:876][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
-[2020.03.28-20.02.36:876][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.03.28-20.02.36:876][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.03.28-20.02.36:876][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
-[2020.03.28-20.02.36:876][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.03.28-20.02.36:876][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.03.28-20.02.36:876][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.03.28-20.02.36:876][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.28-20.02.36:876][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.03.28-20.02.36:878][  0]LogHAL: Display: Platform has ~ 16 GB [17073156096 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.03.28-20.02.36:878][  0]LogInit: Going up to parent DeviceProfile []
-[2020.03.28-20.02.36:878][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.03.28-20.02.36:878][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.03.28-20.02.36:879][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Engine.ini]
-[2020.03.28-20.02.36:880][  0]LogInit: Computer: LAPTOP-BRPRJBQ5
-[2020.03.28-20.02.36:880][  0]LogInit: User: arthur
-[2020.03.28-20.02.36:880][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.03.28-20.02.36:880][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.03.28-20.02.36:880][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.03.28-20.02.36:880][  0]LogMemory: Platform Memory Stats for Windows
-[2020.03.28-20.02.36:880][  0]LogMemory: Process Physical Memory: 104.50 MB used, 104.50 MB peak
-[2020.03.28-20.02.36:880][  0]LogMemory: Process Virtual Memory: 101.55 MB used, 101.55 MB peak
-[2020.03.28-20.02.36:880][  0]LogMemory: Physical Memory: 8894.43 MB used,  7387.80 MB free, 16282.23 MB total
-[2020.03.28-20.02.36:880][  0]LogMemory: Virtual Memory: 5159.27 MB used,  134212568.00 MB free, 134217728.00 MB total
-[2020.03.28-20.02.36:885][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.03.28-20.02.36:897][  0]LogInit: Using OS detected language (fr-FR).
-[2020.03.28-20.02.36:897][  0]LogInit: Using OS detected locale (fr-FR).
-[2020.03.28-20.02.36:897][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
-[2020.03.28-20.02.36:898][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
-[2020.03.28-20.02.36:898][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
-[2020.03.28-20.02.36:898][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
-[2020.03.28-20.02.36:898][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
-[2020.03.28-20.02.36:898][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
-[2020.03.28-20.02.36:898][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
-[2020.03.28-20.02.36:898][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
-[2020.03.28-20.02.36:899][  0]LogInit: Setting process to per monitor DPI aware
-[2020.03.28-20.02.36:939][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.03.28-20.02.36:939][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.03.28-20.02.37:082][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.03.28-20.02.37:082][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.03.28-20.02.37:082][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.03.28-20.02.37:082][  0]LogD3D11RHI: D3D11 adapters:
-[2020.03.28-20.02.37:162][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (Feature Level 11_0)
-[2020.03.28-20.02.37:162][  0]LogD3D11RHI:       8031/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.03.28-20.02.37:178][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2020.03.28-20.02.37:178][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.03.28-20.02.37:180][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.03.28-20.02.37:180][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.03.28-20.02.37:180][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.03.28-20.02.37:211][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.03.28-20.02.37:211][  0]LogD3D11RHI:     GPU DeviceId: 0x1f10 (for the marketing name, search the web for "GPU Device Id")
-[2020.03.28-20.02.37:211][  0]LogWindows: EnumDisplayDevices:
-[2020.03.28-20.02.37:211][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2020.03.28-20.02.37:211][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:1)
-[2020.03.28-20.02.37:212][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.03.28-20.02.37:212][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
-[2020.03.28-20.02.37:213][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
-[2020.03.28-20.02.37:213][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
-[2020.03.28-20.02.37:213][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
-[2020.03.28-20.02.37:214][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2020.03.28-20.02.37:214][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 with Max-Q Design
-[2020.03.28-20.02.37:214][  0]LogD3D11RHI:   Driver Version: 417.59 (internal:25.21.14.1759, unified:417.59)
-[2020.03.28-20.02.37:214][  0]LogD3D11RHI:      Driver Date: 12-28-2018
-[2020.03.28-20.02.37:214][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
-[2020.03.28-20.02.37:269][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.03.28-20.02.37:270][  0]LogD3D11RHI: Async texture creation enabled
-[2020.03.28-20.02.37:293][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2020.03.28-20.02.37:573][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.03.28-20.02.37:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.03.28-20.02.37:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.03.28-20.02.37:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.03.28-20.02.37:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.03.28-20.02.37:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.03.28-20.02.37:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.03.28-20.02.37:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.03.28-20.02.37:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.03.28-20.02.37:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.03.28-20.02.37:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.03.28-20.02.37:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.03.28-20.02.37:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.03.28-20.02.37:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.03.28-20.02.37:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.03.28-20.02.37:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.03.28-20.02.37:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.03.28-20.02.37:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.03.28-20.02.37:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.03.28-20.02.37:618][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.03.28-20.02.37:618][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.03.28-20.02.37:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.03.28-20.02.37:629][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.03.28-20.02.37:634][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.03.28-20.02.37:641][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.03.28-20.02.37:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.03.28-20.02.37:655][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.03.28-20.02.37:679][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.03.28-20.02.37:679][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.03.28-20.02.37:697][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.03.28-20.02.37:697][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.03.28-20.02.37:704][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.03.28-20.02.37:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.03.28-20.02.37:719][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.03.28-20.02.37:727][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.03.28-20.02.37:727][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.03.28-20.02.37:729][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.03.28-20.02.37:748][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Intermediate/Shaders/WorkingDirectory/17908/).
-[2020.03.28-20.02.37:748][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/arthur/AppData/Local/Temp/UnrealShaderWorkingDir/0B5B2A9944EC5FA4897FAFA3D65976DB/'.
-[2020.03.28-20.02.37:749][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.03.28-20.02.37:749][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.03.28-20.02.37:749][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.03.28-20.02.38:429][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.03.28-20.02.38:479][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/arthur/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.03.28-20.02.38:479][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/arthur/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.03.28-20.02.38:479][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/arthur/Documents/GitHub/chess/Chess/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.03.28-20.02.38:479][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.03.28-20.02.38:479][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/arthur/Documents/GitHub/chess/Chess/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.03.28-20.02.38:479][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.03.28-20.02.38:488][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.03.28-20.02.38:488][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.03.28-20.02.38:488][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.03.28-20.02.38:490][  0]LogDerivedDataCache: Using Local data cache path C:/Users/arthur/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.03.28-20.02.38:490][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.03.28-20.02.38:490][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.03.28-20.02.38:512][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.03.28-20.02.38:514][  0]LogSlate: Using FreeType 2.10.0
-[2020.03.28-20.02.38:515][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.03.28-20.02.38:557][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
-[2020.03.28-20.02.38:829][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.28-20.02.38:980][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.03.28-20.02.38:980][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.03.28-20.02.38:980][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.03.28-20.02.38:980][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.03.28-20.02.38:980][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.03.28-20.02.38:992][  0]LogNetVersion: Chess 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 956810394)
-[2020.03.28-20.02.39:910][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.043550 seconds
-[2020.03.28-20.02.39:917][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.03.28-20.02.39:917][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.03.28-20.02.39:917][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.03.28-20.02.40:264][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.03.28-20.02.40:299][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.03.28-20.02.40:348][  0]SourceControl: Source control is disabled
-[2020.03.28-20.02.40:348][  0]SourceControl: Source control is disabled
-[2020.03.28-20.02.40:349][  0]SourceControl: Source control is disabled
-[2020.03.28-20.02.40:350][  0]SourceControl: Source control is disabled
-[2020.03.28-20.02.40:351][  0]SourceControl: Source control is disabled
-[2020.03.28-20.02.40:430][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.03.28-20.02.40:439][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.03.28-20.02.40:439][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.03.28-20.02.40:519][  0]LogOcInput: OculusInput pre-init called
-[2020.03.28-20.02.40:525][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.03.28-20.02.40:525][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.03.28-20.02.40:584][  0]LogEngine: Initializing Engine...
-[2020.03.28-20.02.40:585][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.03.28-20.02.40:586][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.03.28-20.02.40:900][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.03.28-20.02.40:906][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.03.28-20.02.40:912][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.03.28-20.02.40:912][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.03.28-20.02.40:912][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.03.28-20.02.40:912][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.03.28-20.02.40:912][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.03.28-20.02.40:912][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.03.28-20.02.40:912][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.03.28-20.02.40:912][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.03.28-20.02.40:913][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.03.28-20.02.40:913][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.03.28-20.02.40:950][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.03.28-20.02.40:950][  0]LogAudioMixer: Display: Name: Casque (SteelSeries Arctis 5 Game)
-[2020.03.28-20.02.40:950][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.03.28-20.02.40:950][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.03.28-20.02.40:950][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.03.28-20.02.40:950][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.03.28-20.02.40:950][  0]LogAudioMixer: Display: Channel Order:
-[2020.03.28-20.02.40:950][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.03.28-20.02.40:950][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.03.28-20.02.40:964][  0]LogAudioMixer: Display: Using Audio Device Casque (SteelSeries Arctis 5 Game)
-[2020.03.28-20.02.40:969][  0]LogInit: FAudioDevice initialized.
-[2020.03.28-20.02.40:969][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.03.28-20.02.41:020][  0]LogDerivedDataCache: Saved boot cache 0.05s 78MB C:/Users/arthur/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.03.28-20.02.41:024][  0]LogInit: Texture streaming: Enabled
-[2020.03.28-20.02.41:031][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.03.28-20.02.41:031][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.03.28-20.02.41:032][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.03.28-20.02.41:048][  0]LogInit: Transaction tracking system initialized
-[2020.03.28-20.02.41:057][  0]BlueprintLog: New page: Editor Load
-[2020.03.28-20.02.41:111][  0]LocalizationService: Localization service is disabled
-[2020.03.28-20.02.41:419][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arthur/Documents/GitHub/chess/Chess/Content/' took 0.00s
-[2020.03.28-20.02.41:419][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.03.28-20.02.41:419][  0]LogCook: Display: Mobile HDR setting 1
-[2020.03.28-20.02.41:967][  0]SourceControl: Source control is disabled
-[2020.03.28-20.02.41:967][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.03.28-20.02.41:967][  0]LightingResults: New page: Lighting Build
-[2020.03.28-20.02.41:968][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.03.28-20.02.41:968][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.03.28-20.02.41:968][  0]MapCheck: New page: Map Check
-[2020.03.28-20.02.41:968][  0]LightingResults: New page: Lighting Build
-[2020.03.28-20.02.42:003][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
-[2020.03.28-20.02.42:071][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2020.03.28-20.02.42:074][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.03.28-20.02.42:110][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
-[2020.03.28-20.02.42:110][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.03.28-20.02.42:111][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,215ms to complete.
-[2020.03.28-20.02.42:111][  0]LogFileHelpers: Loading map 'Template_Default' took 0.144
-[2020.03.28-20.02.42:244][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.28-20.02.42:249][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.28-20.02.42:256][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.28-20.02.42:263][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.28-20.02.42:266][  0]LogCollectionManager: Loaded 0 collections in 0.000942 seconds
-[2020.03.28-20.02.42:279][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Collections/' took 0.00s
-[2020.03.28-20.02.42:279][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arthur/Documents/GitHub/chess/Chess/Content/Developers/arthur/Collections/' took 0.00s
-[2020.03.28-20.02.42:279][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arthur/Documents/GitHub/chess/Chess/Content/Collections/' took 0.00s
-[2020.03.28-20.02.42:279][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 3015 classes and 717 folders.
-[2020.03.28-20.02.42:281][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.03.28-20.02.42:320][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.03.28-20.02.42:323][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
-[2020.03.28-20.02.42:384][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.03.28-20.02.42:385][  0]LogSlate: Took 0.000095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.03.28-20.02.42:388][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.03.28-20.02.42:455][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2020.03.28-20.02.42:552][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.03.28-20.02.42:553][  0]LogLoad: (Engine Initialization) Total time: 6.70 seconds
-[2020.03.28-20.02.42:553][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.03.28-20.02.42:604][  0]LogAssetRegistry: Asset discovery search completed in 4.0470 seconds
-[2020.03.28-20.02.42:607][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
-[2020.03.28-20.02.42:608][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Engine.ini]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Engine.ini]
+[2020.03.29-12.05.51:656][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Engine.ini]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Engine.ini]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.03.29-12.05.51:656][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Engine.ini]
+[2020.03.29-12.05.51:656][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Engine.ini]
+[2020.03.29-12.05.51:663][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.29-12.05.51:663][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.29-12.05.51:664][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.29-12.05.51:665][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.29-12.05.51:665][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.29-12.05.51:665][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.29-12.05.51:668][  0]LogHAL: Display: Platform has ~ 16 GB [17073156096 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.29-12.05.51:668][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.29-12.05.51:668][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.29-12.05.51:668][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.29-12.05.51:669][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.29-12.05.51:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.29-12.05.51:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.29-12.05.51:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.29-12.05.51:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.29-12.05.51:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.29-12.05.51:670][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
+[2020.03.29-12.05.51:670][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.29-12.05.51:670][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.29-12.05.51:670][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Scalability.ini]
+[2020.03.29-12.05.51:670][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.29-12.05.51:670][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.29-12.05.51:670][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.29-12.05.51:670][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.03.29-12.05.51:670][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.03.29-12.05.51:670][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.03.29-12.05.51:670][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Config/Windows/Engine.ini]
+[2020.03.29-12.05.51:670][  0]LogInit: Computer: LAPTOP-BRPRJBQ5
+[2020.03.29-12.05.51:670][  0]LogInit: User: arthur
+[2020.03.29-12.05.51:670][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.03.29-12.05.51:670][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.29-12.05.51:670][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.03.29-12.05.51:670][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.29-12.05.51:670][  0]LogMemory: Process Physical Memory: 108.67 MB used, 108.67 MB peak
+[2020.03.29-12.05.51:670][  0]LogMemory: Process Virtual Memory: 101.46 MB used, 101.46 MB peak
+[2020.03.29-12.05.51:670][  0]LogMemory: Physical Memory: 6107.33 MB used,  10174.90 MB free, 16282.23 MB total
+[2020.03.29-12.05.51:670][  0]LogMemory: Virtual Memory: 5159.86 MB used,  134212568.00 MB free, 134217728.00 MB total
+[2020.03.29-12.05.51:677][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.03.29-12.05.51:705][  0]LogInit: Using OS detected language (fr-FR).
+[2020.03.29-12.05.51:705][  0]LogInit: Using OS detected locale (fr-FR).
+[2020.03.29-12.05.51:706][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2020.03.29-12.05.51:706][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2020.03.29-12.05.51:707][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2020.03.29-12.05.51:707][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2020.03.29-12.05.51:707][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2020.03.29-12.05.51:707][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2020.03.29-12.05.51:707][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2020.03.29-12.05.51:707][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2020.03.29-12.05.51:708][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.29-12.05.51:750][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.29-12.05.51:750][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.29-12.05.51:937][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.29-12.05.51:937][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.03.29-12.05.51:937][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.03.29-12.05.51:937][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.29-12.05.52:021][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (Feature Level 11_0)
+[2020.03.29-12.05.52:021][  0]LogD3D11RHI:       8031/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.03.29-12.05.52:046][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.03.29-12.05.52:046][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.03.29-12.05.52:048][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.29-12.05.52:048][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.29-12.05.52:048][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.29-12.05.52:087][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.29-12.05.52:087][  0]LogD3D11RHI:     GPU DeviceId: 0x1f10 (for the marketing name, search the web for "GPU Device Id")
+[2020.03.29-12.05.52:087][  0]LogWindows: EnumDisplayDevices:
+[2020.03.29-12.05.52:087][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.03.29-12.05.52:087][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:1)
+[2020.03.29-12.05.52:088][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.03.29-12.05.52:088][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2020.03.29-12.05.52:088][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2020.03.29-12.05.52:088][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2020.03.29-12.05.52:089][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2020.03.29-12.05.52:089][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.03.29-12.05.52:089][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 with Max-Q Design
+[2020.03.29-12.05.52:089][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.03.29-12.05.52:089][  0]LogD3D11RHI:      Driver Date: 3-17-2020
+[2020.03.29-12.05.52:089][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2020.03.29-12.05.52:138][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.03.29-12.05.52:138][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.29-12.05.52:160][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.03.29-12.05.52:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.03.29-12.05.52:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.03.29-12.05.52:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.03.29-12.05.52:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.03.29-12.05.52:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.03.29-12.05.52:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.03.29-12.05.52:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.03.29-12.05.52:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.03.29-12.05.52:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.03.29-12.05.52:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.03.29-12.05.52:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.03.29-12.05.52:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.03.29-12.05.52:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.03.29-12.05.52:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.03.29-12.05.52:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.03.29-12.05.52:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.03.29-12.05.52:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.03.29-12.05.52:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.03.29-12.05.52:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.03.29-12.05.52:534][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.03.29-12.05.52:534][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.03.29-12.05.52:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.03.29-12.05.52:548][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.03.29-12.05.52:555][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.03.29-12.05.52:562][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.03.29-12.05.52:569][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.03.29-12.05.52:576][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.03.29-12.05.52:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.03.29-12.05.52:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.03.29-12.05.52:611][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.03.29-12.05.52:611][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.03.29-12.05.52:617][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.03.29-12.05.52:625][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.03.29-12.05.52:631][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.03.29-12.05.52:638][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.03.29-12.05.52:638][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.29-12.05.52:640][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.03.29-12.05.52:659][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Intermediate/Shaders/WorkingDirectory/7108/).
+[2020.03.29-12.05.52:660][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/arthur/AppData/Local/Temp/UnrealShaderWorkingDir/10CAA60B4C800026D0A82289DEC5D7C1/'.
+[2020.03.29-12.05.52:660][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.29-12.05.52:660][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.29-12.05.52:660][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.29-12.05.53:307][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.29-12.05.53:352][  0]LogDerivedDataCache: Loaded boot cache 0.04s 78MB C:/Users/arthur/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.29-12.05.53:352][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/arthur/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.03.29-12.05.53:352][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/arthur/Documents/GitHub/chess/Chess/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.29-12.05.53:352][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.29-12.05.53:352][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/arthur/Documents/GitHub/chess/Chess/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.29-12.05.53:352][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.29-12.05.53:361][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.29-12.05.53:362][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.29-12.05.53:362][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.03.29-12.05.53:363][  0]LogDerivedDataCache: Using Local data cache path C:/Users/arthur/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.29-12.05.53:363][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.29-12.05.53:363][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.29-12.05.53:385][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.29-12.05.53:388][  0]LogSlate: Using FreeType 2.10.0
+[2020.03.29-12.05.53:388][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.29-12.05.53:431][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2020.03.29-12.05.53:690][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.29-12.05.53:835][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.29-12.05.53:835][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.03.29-12.05.53:835][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.29-12.05.53:835][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.03.29-12.05.53:835][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.03.29-12.05.53:848][  0]LogNetVersion: Chess 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 956810394)
+[2020.03.29-12.05.54:770][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.043464 seconds
+[2020.03.29-12.05.54:776][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.03.29-12.05.54:776][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.03.29-12.05.54:776][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.29-12.05.55:140][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.29-12.05.55:142][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.29-12.05.55:190][  0]SourceControl: Source control is disabled
+[2020.03.29-12.05.55:190][  0]SourceControl: Source control is disabled
+[2020.03.29-12.05.55:191][  0]SourceControl: Source control is disabled
+[2020.03.29-12.05.55:192][  0]SourceControl: Source control is disabled
+[2020.03.29-12.05.55:192][  0]SourceControl: Source control is disabled
+[2020.03.29-12.05.55:272][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.29-12.05.55:281][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.29-12.05.55:281][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.29-12.05.55:369][  0]LogOcInput: OculusInput pre-init called
+[2020.03.29-12.05.55:377][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.03.29-12.05.55:377][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.03.29-12.05.55:451][  0]LogEngine: Initializing Engine...
+[2020.03.29-12.05.55:452][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.29-12.05.55:453][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.03.29-12.05.55:820][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.29-12.05.55:826][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.29-12.05.55:844][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.29-12.05.55:844][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.29-12.05.55:844][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.29-12.05.55:844][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.29-12.05.55:844][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.29-12.05.55:844][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.29-12.05.55:844][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.29-12.05.55:844][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.29-12.05.55:844][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.29-12.05.55:844][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.29-12.05.55:893][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.29-12.05.55:893][  0]LogAudioMixer: Display: Name: Casque (SteelSeries Arctis 5 Game)
+[2020.03.29-12.05.55:893][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.03.29-12.05.55:893][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.29-12.05.55:893][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.29-12.05.55:893][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.29-12.05.55:893][  0]LogAudioMixer: Display: Channel Order:
+[2020.03.29-12.05.55:893][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.29-12.05.55:893][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.03.29-12.05.55:915][  0]LogAudioMixer: Display: Using Audio Device Casque (SteelSeries Arctis 5 Game)
+[2020.03.29-12.05.55:920][  0]LogInit: FAudioDevice initialized.
+[2020.03.29-12.05.55:920][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.29-12.05.55:968][  0]LogDerivedDataCache: Saved boot cache 0.05s 78MB C:/Users/arthur/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.29-12.05.55:972][  0]LogInit: Texture streaming: Enabled
+[2020.03.29-12.05.55:981][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.29-12.05.55:981][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.03.29-12.05.55:982][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.03.29-12.05.56:029][  0]LogInit: Transaction tracking system initialized
+[2020.03.29-12.05.56:038][  0]BlueprintLog: New page: Editor Load
+[2020.03.29-12.05.56:066][  0]LocalizationService: Localization service is disabled
+[2020.03.29-12.05.56:358][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arthur/Documents/GitHub/chess/Chess/Content/' took 0.00s
+[2020.03.29-12.05.56:358][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.29-12.05.56:358][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.29-12.05.57:033][  0]SourceControl: Source control is disabled
+[2020.03.29-12.05.57:033][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.29-12.05.57:034][  0]LightingResults: New page: Lighting Build
+[2020.03.29-12.05.57:035][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.03.29-12.05.57:035][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-12.05.57:035][  0]MapCheck: New page: Map Check
+[2020.03.29-12.05.57:035][  0]LightingResults: New page: Lighting Build
+[2020.03.29-12.05.57:070][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.03.29-12.05.57:156][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.03.29-12.05.57:160][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.29-12.05.57:195][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.03.29-12.05.57:196][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.29-12.05.57:196][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,167ms to complete.
+[2020.03.29-12.05.57:196][  0]LogFileHelpers: Loading map 'Template_Default' took 0.162
+[2020.03.29-12.05.57:377][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.29-12.05.57:385][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.29-12.05.57:394][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.29-12.05.57:405][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.29-12.05.57:419][  0]LogCollectionManager: Loaded 0 collections in 0.001681 seconds
+[2020.03.29-12.05.57:440][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arthur/Documents/GitHub/chess/Chess/Saved/Collections/' took 0.00s
+[2020.03.29-12.05.57:440][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arthur/Documents/GitHub/chess/Chess/Content/Developers/arthur/Collections/' took 0.00s
+[2020.03.29-12.05.57:440][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arthur/Documents/GitHub/chess/Chess/Content/Collections/' took 0.00s
+[2020.03.29-12.05.57:440][  0]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 3015 classes and 717 folders.
+[2020.03.29-12.05.57:444][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.29-12.05.57:874][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.29-12.05.57:910][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2020.03.29-12.05.57:968][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.29-12.05.57:970][  0]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.29-12.05.57:981][  0]LogSlate: Took 0.005860 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.29-12.05.58:134][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.03.29-12.05.58:281][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.29-12.05.58:281][  0]LogLoad: (Engine Initialization) Total time: 8.42 seconds
+[2020.03.29-12.05.58:281][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.29-12.05.58:334][  0]LogAssetRegistry: Asset discovery search completed in 4.9042 seconds
+[2020.03.29-12.05.58:339][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000008 seconds (updated 0 objects)
+[2020.03.29-12.05.58:340][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.29-12.07.07:540][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
