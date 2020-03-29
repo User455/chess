@@ -616,3 +616,389 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.29-12.05.58:339][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000008 seconds (updated 0 objects)
 [2020.03.29-12.05.58:340][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2020.03.29-12.07.07:540][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.03.29-12.25.21:503][292]LogSlate: Took 0.004888 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.29-12.30.38:505][234]LogSlate: Took 0.004890 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.29-12.40.17:752][ 52]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.29-12.40.26:840][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2020.03.29-12.40.26:841][ 79]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.032
+[2020.03.29-12.40.35:296][256]LogSlate: Window 'New Level' being destroyed
+[2020.03.29-12.40.48:623][256]LogSlate: Window 'Save Content' being destroyed
+[2020.03.29-12.40.48:654][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_main_menu" FILE="../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Content/Maps/Map_main_menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.03.29-12.40.48:687][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.03.29-12.40.48:693][256]LogSavePackage: Moving '../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Saved/Map_main_menuFAABF07F40E42955576B1A905F192846.tmp' to '../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Content/Maps/Map_main_menu.umap'
+[2020.03.29-12.40.48:697][256]LogFileHelpers: Saving map 'Map_main_menu' took 0.043
+[2020.03.29-12.40.48:706][256]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.29-12.40.48:735][256]LightingResults: New page: Lighting Build
+[2020.03.29-12.40.48:736][256]LoadErrors: New page: Loading map: Template_Default.umap
+[2020.03.29-12.40.48:737][256]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2020.03.29-12.40.48:737][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-12.40.48:737][256]MapCheck: New page: Map Check
+[2020.03.29-12.40.48:737][256]LightingResults: New page: Lighting Build
+[2020.03.29-12.40.48:768][256]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.03.29-12.40.48:802][256]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2020.03.29-12.40.48:832][256]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.03.29-12.40.48:839][256]LogAIModule: Creating AISystem for world Untitled_2
+[2020.03.29-12.40.48:841][256]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.29-12.40.48:870][256]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.03.29-12.40.48:879][256]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.29-12.40.48:879][256]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,123ms to complete.
+[2020.03.29-12.40.48:879][256]LogFileHelpers: Loading map 'Template_Default' took 0.173
+[2020.03.29-12.40.48:882][256]AssetCheck: New page: Asset Save: Map_main_menu
+[2020.03.29-12.40.48:882][256]LogContentValidation: Display: Validating World /Game/Maps/Map_main_menu.Map_main_menu
+[2020.03.29-12.40.48:883][256]LogAIModule: Creating AISystem for world Map_main_menu
+[2020.03.29-12.40.54:516][514]LogSlate: Window 'New Level' being destroyed
+[2020.03.29-12.40.54:520][514]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.29-12.40.54:552][514]LightingResults: New page: Lighting Build
+[2020.03.29-12.40.54:553][514]LoadErrors: New page: Loading map: Template_Default.umap
+[2020.03.29-12.40.54:553][514]LogWorld: UWorld::CleanupWorld for Untitled_2, bSessionEnded=true, bCleanupResources=true
+[2020.03.29-12.40.54:553][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-12.40.54:553][514]MapCheck: New page: Map Check
+[2020.03.29-12.40.54:553][514]LightingResults: New page: Lighting Build
+[2020.03.29-12.40.54:586][514]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2020.03.29-12.40.54:617][514]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.03.29-12.40.54:648][514]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.03.29-12.40.54:654][514]LogAIModule: Creating AISystem for world Untitled_3
+[2020.03.29-12.40.54:656][514]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.29-12.40.54:689][514]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.03.29-12.40.54:694][514]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.29-12.40.54:694][514]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,141ms to complete.
+[2020.03.29-12.40.54:694][514]LogFileHelpers: Loading map 'Template_Default' took 0.175
+[2020.03.29-12.41.18:674][823]LogSlate: Window 'Save Level As' being destroyed
+[2020.03.29-12.41.18:704][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_level1" FILE="../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Content/Maps/Map_level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.03.29-12.41.18:736][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2020.03.29-12.41.18:749][823]LogSavePackage: Moving '../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Saved/Map_level1E8E82A504B985F94AF481C97FA331384.tmp' to '../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Content/Maps/Map_level1.umap'
+[2020.03.29-12.41.18:772][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_level1_BuiltData" FILE="../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Content/Maps/Map_level1_BuiltData.uasset" SILENT=true
+[2020.03.29-12.41.18:785][823]LogSavePackage: Moving '../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Saved/Map_level1_BuiltData00E174824EECBBB05A6EA08DF7B2C3A1.tmp' to '../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Content/Maps/Map_level1_BuiltData.uasset'
+[2020.03.29-12.41.18:796][823]LogFileHelpers: Saving map 'Map_level1' took 0.116
+[2020.03.29-12.41.18:802][823]AssetCheck: New page: Asset Save: multiple assets
+[2020.03.29-12.41.18:802][823]LogContentValidation: Display: Validating World /Game/Maps/Map_level1.Map_level1
+[2020.03.29-12.41.18:802][823]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Map_level1_BuiltData.Map_level1_BuiltData
+[2020.03.29-12.43.03:792][ 67]LogAIModule: Creating AISystem for world Map_main_menu
+[2020.03.29-12.43.06:452][220]LogSlate: Window 'Project Settings' being destroyed
+[2020.03.29-12.43.06:457][220]LogSlate: Window 'Project Settings' being destroyed
+[2020.03.29-12.43.10:686][468]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Map_main_menu.Map_main_menu
+[2020.03.29-12.43.10:715][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2020.03.29-12.43.10:717][468]Cmd: MAP LOAD FILE="../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Content/Maps/Map_main_menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.29-12.43.10:717][468]LightingResults: New page: Lighting Build
+[2020.03.29-12.43.10:718][468]LoadErrors: New page: Loading map: Map_main_menu.umap
+[2020.03.29-12.43.10:718][468]LogWorld: UWorld::CleanupWorld for Map_level1, bSessionEnded=true, bCleanupResources=true
+[2020.03.29-12.43.10:718][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-12.43.10:718][468]MapCheck: New page: Map Check
+[2020.03.29-12.43.10:718][468]LightingResults: New page: Lighting Build
+[2020.03.29-12.43.10:750][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.03.29-12.43.10:751][468]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.29-12.43.10:781][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.03.29-12.43.10:802][468]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.29-12.43.10:802][468]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,101ms to complete.
+[2020.03.29-12.43.10:803][468]LogFileHelpers: Loading map 'Map_main_menu' took 0.087
+[2020.03.29-12.44.19:406][879]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.03.29-12.45.36:922][366]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/UI_main_menu.UI_main_menu
+[2020.03.29-12.45.37:138][366]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
+[2020.03.29-12.45.38:226][366]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.29-12.45.39:277][425]LogSlate: Took 0.008899 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.03.29-12.53.10:993][680]LogUObjectHash: Compacting FUObjectHashTables data took   6.39ms
+[2020.03.29-12.53.10:994][680]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Map_main_menu' took 0.073
+[2020.03.29-12.53.10:995][680]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/UI_main_menu] ([1] browsable assets)...
+[2020.03.29-12.53.10:995][680]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/UI_main_menu]
+[2020.03.29-12.53.10:995][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_main_menu" FILE="../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Saved/Autosaves/Game/UI/UI_main_menu_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.03.29-12.53.11:011][680]LogSavePackage: Moving '../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Saved/UI_main_menu_Auto127C2C4C349CF19175FDF4CB0FD64E6F0.tmp' to '../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Saved/Autosaves/Game/UI/UI_main_menu_Auto1.uasset'
+[2020.03.29-12.53.11:013][680]LogFileHelpers: Auto-saving content packages took 0.018
+[2020.03.29-13.47.14:307][431]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.03.29-13.47.14:309][431]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Map_main_menu' took 0.043
+[2020.03.29-13.47.14:310][431]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/UI_main_menu] ([1] browsable assets)...
+[2020.03.29-13.47.14:310][431]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/UI_main_menu]
+[2020.03.29-13.47.14:310][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_main_menu" FILE="../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Saved/Autosaves/Game/UI/UI_main_menu_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2020.03.29-13.47.14:327][431]LogSavePackage: Moving '../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Saved/UI_main_menu_Auto2EE98CA1B4E5BE1A25662C1BF6BA9C3C0.tmp' to '../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Saved/Autosaves/Game/UI/UI_main_menu_Auto2.uasset'
+[2020.03.29-13.47.14:329][431]LogFileHelpers: Auto-saving content packages took 0.019
+[2020.03.29-13.57.14:856][309]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2020.03.29-13.57.14:859][309]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Map_main_menu' took 0.044
+[2020.03.29-13.57.14:860][309]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/UI_main_menu] ([1] browsable assets)...
+[2020.03.29-13.57.14:860][309]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/UI_main_menu]
+[2020.03.29-13.57.14:860][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_main_menu" FILE="../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Saved/Autosaves/Game/UI/UI_main_menu_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2020.03.29-13.57.14:870][309]LogSavePackage: Moving '../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Saved/UI_main_menu_Auto365D8353241902F8A4BD7F9AB3BF10A46.tmp' to '../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Saved/Autosaves/Game/UI/UI_main_menu_Auto3.uasset'
+[2020.03.29-13.57.14:870][309]LogFileHelpers: Auto-saving content packages took 0.011
+[2020.03.29-13.59.35:755][837]LogEditorTransaction: Undo Move Widget
+[2020.03.29-14.00.41:319][747]LogSlate: Window 'UI_main_menu' being destroyed
+[2020.03.29-14.00.41:326][747]LogSlate: Window 'UI_main_menu' being destroyed
+[2020.03.29-14.00.41:334][747]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.03.29-14.00.41:335][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-14.00.41:361][747]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.03.29-14.00.41:361][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-14.00.46:601][ 51]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu
+[2020.03.29-14.02.55:444][584]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.03.29-14.03.39:092][593]LogSlate: Window 'Map_main_menu' being destroyed
+[2020.03.29-14.03.39:097][593]LogSlate: Window 'Map_main_menu' being destroyed
+[2020.03.29-14.03.39:113][593]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.03.29-14.03.39:113][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-14.03.39:905][639]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.29-14.03.39:923][639]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu' with GeneratedClass '/Game/Maps/Map_main_menu.Map_main_menu_C' with ClassGeneratedBy '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu'
+[2020.03.29-14.03.39:926][639]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.03.29-14.03.39:927][639]LogPlayLevel: [PlayLevel] Compiling Map_main_menu before play...
+[2020.03.29-14.03.39:932][639]LogPlayLevel: [PlayLevel] Compiling UI_main_menu before play...
+[2020.03.29-14.03.40:219][639]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2020.03.29-14.03.40:221][639]LogPlayLevel: PlayLevel: Blueprint regeneration took 296 ms (2 blueprints)
+[2020.03.29-14.03.40:224][639]PIE: New page: PIE session: Map_main_menu (29 mars 2020 à 18:03:40)
+[2020.03.29-14.03.40:235][639]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.03.29-14.03.40:239][639]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.03.29-14.03.40:240][639]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_main_menu
+[2020.03.29-14.03.40:243][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002419s)
+[2020.03.29-14.03.40:245][639]LogAIModule: Creating AISystem for world Map_main_menu
+[2020.03.29-14.03.40:247][639]LogPlayLevel: PIE: World Init took: (0.003867s)
+[2020.03.29-14.03.40:247][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_main_menu.Map_main_menu to /Game/Maps/UEDPIE_0_Map_main_menu.Map_main_menu (0.006695s)
+[2020.03.29-14.03.40:288][639]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2020.03.29-14.03.40:292][639]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.29-14.03.40:292][639]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.29-14.03.40:292][639]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.29-14.03.40:292][639]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.29-14.03.40:292][639]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.29-14.03.40:292][639]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.29-14.03.40:292][639]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.29-14.03.40:292][639]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.29-14.03.40:294][639]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.29-14.03.40:295][639]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.29-14.03.40:326][639]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.29-14.03.40:326][639]LogAudioMixer: Display: Name: Casque (SteelSeries Arctis 5 Game)
+[2020.03.29-14.03.40:326][639]LogAudioMixer: Display: Is Default: Yes
+[2020.03.29-14.03.40:326][639]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.29-14.03.40:326][639]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.29-14.03.40:326][639]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.29-14.03.40:326][639]LogAudioMixer: Display: Channel Order:
+[2020.03.29-14.03.40:326][639]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.29-14.03.40:326][639]LogAudioMixer: Display: 1: FrontRight
+[2020.03.29-14.03.40:341][639]LogAudioMixer: Display: Using Audio Device Casque (SteelSeries Arctis 5 Game)
+[2020.03.29-14.03.40:346][639]LogInit: FAudioDevice initialized.
+[2020.03.29-14.03.40:365][639]LogLoad: Game class is 'GameModeBase'
+[2020.03.29-14.03.40:367][639]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_main_menu.Map_main_menu up for play (max tick rate 60) at 2020.03.29-16.03.40
+[2020.03.29-14.03.40:368][639]LogWorld: Bringing up level for play took: 0.002040
+[2020.03.29-14.03.40:370][639]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.03.29-14.03.40:395][639]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.03.29-14.03.40:412][639]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map_main_menu -0,126
+[2020.03.29-14.03.40:413][639]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu' with GeneratedClass '/Game/Maps/Map_main_menu.Map_main_menu_C' with ClassGeneratedBy '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu'
+[2020.03.29-14.03.45:893][953]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.29-14.03.45:893][953]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.29-14.03.45:895][953]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu' with GeneratedClass '/Game/Maps/Map_main_menu.Map_main_menu_C' with ClassGeneratedBy '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu'
+[2020.03.29-14.03.45:895][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.29-14.03.45:896][953]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_main_menu
+[2020.03.29-14.03.45:896][953]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.29-14.03.45:896][953]LogWorld: UWorld::CleanupWorld for Map_main_menu, bSessionEnded=true, bCleanupResources=true
+[2020.03.29-14.03.45:897][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-14.03.45:907][953]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.29-14.03.45:907][953]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu' with GeneratedClass '/Game/Maps/Map_main_menu.Map_main_menu_C' with ClassGeneratedBy '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu'
+[2020.03.29-14.03.45:912][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-14.03.45:946][953]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.29-14.03.45:949][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.29-14.03.45:988][953]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.03.29-14.03.46:000][954]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.03.29-14.04.19:345][379]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/UI_main_menu.UI_main_menu
+[2020.03.29-14.05.49:162][182]LogSlate: Window 'UI_main_menu' being destroyed
+[2020.03.29-14.05.49:166][182]LogSlate: Window 'UI_main_menu' being destroyed
+[2020.03.29-14.05.49:168][182]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.03.29-14.05.49:168][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-14.05.49:193][182]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.03.29-14.05.49:193][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-14.05.51:074][293]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.29-14.05.51:089][293]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu' with GeneratedClass '/Game/Maps/Map_main_menu.Map_main_menu_C' with ClassGeneratedBy '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu'
+[2020.03.29-14.05.51:089][293]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.03.29-14.05.51:090][293]LogPlayLevel: [PlayLevel] Compiling UI_main_menu before play...
+[2020.03.29-14.05.51:357][293]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2020.03.29-14.05.51:359][293]LogPlayLevel: PlayLevel: Blueprint regeneration took 269 ms (1 blueprints)
+[2020.03.29-14.05.51:359][293]PIE: New page: PIE session: Map_main_menu (29 mars 2020 à 18:05:51)
+[2020.03.29-14.05.51:359][293]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_main_menu
+[2020.03.29-14.05.51:360][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001072s)
+[2020.03.29-14.05.51:361][293]LogAIModule: Creating AISystem for world Map_main_menu
+[2020.03.29-14.05.51:361][293]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2020.03.29-14.05.51:361][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_main_menu.Map_main_menu to /Game/Maps/UEDPIE_0_Map_main_menu.Map_main_menu (0.001988s)
+[2020.03.29-14.05.51:394][293]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.03.29-14.05.51:394][293]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.29-14.05.51:394][293]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.29-14.05.51:394][293]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.29-14.05.51:394][293]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.29-14.05.51:394][293]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.29-14.05.51:394][293]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.29-14.05.51:394][293]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.29-14.05.51:394][293]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.29-14.05.51:395][293]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.29-14.05.51:395][293]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.29-14.05.51:435][293]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.29-14.05.51:435][293]LogAudioMixer: Display: Name: Casque (SteelSeries Arctis 5 Game)
+[2020.03.29-14.05.51:435][293]LogAudioMixer: Display: Is Default: Yes
+[2020.03.29-14.05.51:435][293]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.29-14.05.51:435][293]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.29-14.05.51:435][293]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.29-14.05.51:435][293]LogAudioMixer: Display: Channel Order:
+[2020.03.29-14.05.51:435][293]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.29-14.05.51:435][293]LogAudioMixer: Display: 1: FrontRight
+[2020.03.29-14.05.51:451][293]LogAudioMixer: Display: Using Audio Device Casque (SteelSeries Arctis 5 Game)
+[2020.03.29-14.05.51:453][293]LogInit: FAudioDevice initialized.
+[2020.03.29-14.05.51:463][293]LogLoad: Game class is 'GameModeBase'
+[2020.03.29-14.05.51:464][293]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_main_menu.Map_main_menu up for play (max tick rate 60) at 2020.03.29-16.05.51
+[2020.03.29-14.05.51:465][293]LogWorld: Bringing up level for play took: 0.000291
+[2020.03.29-14.05.51:465][293]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.03.29-14.05.51:467][293]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map_main_menu 0,928
+[2020.03.29-14.05.51:467][293]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu' with GeneratedClass '/Game/Maps/Map_main_menu.Map_main_menu_C' with ClassGeneratedBy '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu'
+[2020.03.29-14.05.52:443][352]LogNet: Browse: /Game/Maps/Map_level1
+[2020.03.29-14.05.52:443][352]LogLoad: LoadMap: /Game/Maps/Map_level1
+[2020.03.29-14.05.52:443][352]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_main_menu
+[2020.03.29-14.05.52:444][352]LogWorld: UWorld::CleanupWorld for Map_main_menu, bSessionEnded=true, bCleanupResources=true
+[2020.03.29-14.05.52:444][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-14.05.52:444][352]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.29-14.05.52:481][352]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.03.29-14.05.52:508][352]LogAIModule: Creating AISystem for world Map_level1
+[2020.03.29-14.05.52:508][352]LogLoad: Game class is 'GameModeBase'
+[2020.03.29-14.05.52:513][352]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_level1.Map_level1 up for play (max tick rate 60) at 2020.03.29-16.05.52
+[2020.03.29-14.05.52:513][352]LogWorld: Bringing up level for play took: 0.003377
+[2020.03.29-14.05.52:515][352]LogLoad: Took 0.071461 seconds to LoadMap(/Game/Maps/Map_level1)
+[2020.03.29-14.05.56:401][585]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.29-14.05.56:401][585]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.29-14.05.56:401][585]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu' with GeneratedClass '/Game/Maps/Map_main_menu.Map_main_menu_C' with ClassGeneratedBy '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu'
+[2020.03.29-14.05.56:401][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.29-14.05.56:401][585]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_level1
+[2020.03.29-14.05.56:401][585]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.29-14.05.56:401][585]LogWorld: UWorld::CleanupWorld for Map_level1, bSessionEnded=true, bCleanupResources=true
+[2020.03.29-14.05.56:401][585]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-14.05.56:413][585]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.29-14.05.56:413][585]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu' with GeneratedClass '/Game/Maps/Map_main_menu.Map_main_menu_C' with ClassGeneratedBy '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu'
+[2020.03.29-14.05.56:417][585]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-14.05.56:450][585]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.29-14.05.56:453][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.29-14.05.56:457][585]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2020.03.29-14.05.56:509][588]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.03.29-14.06.08:450][840]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/UI_main_menu.UI_main_menu
+[2020.03.29-14.07.00:698][941]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.29-14.07.15:599][829]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.29-14.08.01:137][531]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.03.29-14.08.01:299][531]LogSavePackage: Moving '../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Saved/Map_main_menu_Auto4961FB5A94CB765DF20470A951DCB4793.tmp' to '../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Saved/Autosaves/Game/Maps/Map_main_menu_Auto4.umap'
+[2020.03.29-14.08.01:301][531]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Map_main_menu' took 0.198
+[2020.03.29-14.08.01:301][531]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.198
+[2020.03.29-14.08.01:301][531]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/UI_main_menu] ([1] browsable assets)...
+[2020.03.29-14.08.01:301][531]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/UI_main_menu]
+[2020.03.29-14.08.01:301][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_main_menu" FILE="../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Saved/Autosaves/Game/UI/UI_main_menu_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2020.03.29-14.08.01:312][531]LogSavePackage: Moving '../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Saved/UI_main_menu_Auto4CA62E581450530DC5E7FDBB76BEA5B01.tmp' to '../../../../../../Users/arthur/Documents/GitHub/chess/Chess/Saved/Autosaves/Game/UI/UI_main_menu_Auto4.uasset'
+[2020.03.29-14.08.01:313][531]LogFileHelpers: Auto-saving content packages took 0.012
+[2020.03.29-14.08.24:768][929]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.29-14.08.25:935][999]LogEditorTransaction: Undo Edit A
+[2020.03.29-14.10.10:282][225]LogSlate: Window 'UI_main_menu' being destroyed
+[2020.03.29-14.10.10:288][225]LogSlate: Window 'UI_main_menu' being destroyed
+[2020.03.29-14.10.10:290][225]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.03.29-14.10.10:290][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-14.10.10:304][225]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.03.29-14.10.10:304][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-14.10.11:030][267]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.29-14.10.11:043][267]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu' with GeneratedClass '/Game/Maps/Map_main_menu.Map_main_menu_C' with ClassGeneratedBy '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu'
+[2020.03.29-14.10.11:043][267]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.03.29-14.10.11:044][267]LogPlayLevel: [PlayLevel] Compiling UI_main_menu before play...
+[2020.03.29-14.10.11:213][267]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2020.03.29-14.10.11:215][267]LogPlayLevel: PlayLevel: Blueprint regeneration took 171 ms (1 blueprints)
+[2020.03.29-14.10.11:215][267]PIE: New page: PIE session: Map_main_menu (29 mars 2020 à 18:10:11)
+[2020.03.29-14.10.11:215][267]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_main_menu
+[2020.03.29-14.10.11:216][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000904s)
+[2020.03.29-14.10.11:217][267]LogAIModule: Creating AISystem for world Map_main_menu
+[2020.03.29-14.10.11:217][267]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2020.03.29-14.10.11:217][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_main_menu.Map_main_menu to /Game/Maps/UEDPIE_0_Map_main_menu.Map_main_menu (0.001728s)
+[2020.03.29-14.10.11:247][267]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.03.29-14.10.11:247][267]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.29-14.10.11:247][267]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.29-14.10.11:247][267]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.29-14.10.11:247][267]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.29-14.10.11:247][267]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.29-14.10.11:247][267]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.29-14.10.11:247][267]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.29-14.10.11:247][267]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.29-14.10.11:248][267]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.29-14.10.11:248][267]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.29-14.10.11:271][267]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.29-14.10.11:271][267]LogAudioMixer: Display: Name: Casque (SteelSeries Arctis 5 Game)
+[2020.03.29-14.10.11:272][267]LogAudioMixer: Display: Is Default: Yes
+[2020.03.29-14.10.11:272][267]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.29-14.10.11:272][267]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.29-14.10.11:272][267]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.29-14.10.11:272][267]LogAudioMixer: Display: Channel Order:
+[2020.03.29-14.10.11:272][267]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.29-14.10.11:272][267]LogAudioMixer: Display: 1: FrontRight
+[2020.03.29-14.10.11:282][267]LogAudioMixer: Display: Using Audio Device Casque (SteelSeries Arctis 5 Game)
+[2020.03.29-14.10.11:283][267]LogInit: FAudioDevice initialized.
+[2020.03.29-14.10.11:289][267]LogLoad: Game class is 'GameModeBase'
+[2020.03.29-14.10.11:290][267]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_main_menu.Map_main_menu up for play (max tick rate 60) at 2020.03.29-16.10.11
+[2020.03.29-14.10.11:290][267]LogWorld: Bringing up level for play took: 0.000244
+[2020.03.29-14.10.11:290][267]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.03.29-14.10.11:292][267]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map_main_menu 0,754
+[2020.03.29-14.10.11:293][267]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu' with GeneratedClass '/Game/Maps/Map_main_menu.Map_main_menu_C' with ClassGeneratedBy '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu'
+[2020.03.29-14.10.12:452][337]LogNet: Browse: /Game/Maps/Map_level1
+[2020.03.29-14.10.12:452][337]LogLoad: LoadMap: /Game/Maps/Map_level1
+[2020.03.29-14.10.12:452][337]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_main_menu
+[2020.03.29-14.10.12:453][337]LogWorld: UWorld::CleanupWorld for Map_main_menu, bSessionEnded=true, bCleanupResources=true
+[2020.03.29-14.10.12:453][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-14.10.12:453][337]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.29-14.10.12:485][337]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.03.29-14.10.12:492][337]LogAIModule: Creating AISystem for world Map_level1
+[2020.03.29-14.10.12:492][337]LogLoad: Game class is 'GameModeBase'
+[2020.03.29-14.10.12:493][337]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_level1.Map_level1 up for play (max tick rate 60) at 2020.03.29-16.10.12
+[2020.03.29-14.10.12:493][337]LogWorld: Bringing up level for play took: 0.000766
+[2020.03.29-14.10.12:494][337]LogLoad: Took 0.041557 seconds to LoadMap(/Game/Maps/Map_level1)
+[2020.03.29-14.10.13:770][414]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.29-14.10.13:770][414]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.29-14.10.13:770][414]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu' with GeneratedClass '/Game/Maps/Map_main_menu.Map_main_menu_C' with ClassGeneratedBy '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu'
+[2020.03.29-14.10.13:770][414]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.29-14.10.13:770][414]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_level1
+[2020.03.29-14.10.13:770][414]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.29-14.10.13:770][414]LogWorld: UWorld::CleanupWorld for Map_level1, bSessionEnded=true, bCleanupResources=true
+[2020.03.29-14.10.13:770][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-14.10.13:780][414]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.29-14.10.13:780][414]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu' with GeneratedClass '/Game/Maps/Map_main_menu.Map_main_menu_C' with ClassGeneratedBy '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu'
+[2020.03.29-14.10.13:784][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-14.10.13:814][414]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.29-14.10.13:816][414]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.29-14.10.13:819][414]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.03.29-14.10.13:877][418]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.03.29-14.10.15:061][489]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.29-14.10.15:074][489]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu' with GeneratedClass '/Game/Maps/Map_main_menu.Map_main_menu_C' with ClassGeneratedBy '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu'
+[2020.03.29-14.10.15:074][489]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.29-14.10.15:074][489]PIE: New page: PIE session: Map_main_menu (29 mars 2020 à 18:10:15)
+[2020.03.29-14.10.15:074][489]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_main_menu
+[2020.03.29-14.10.15:075][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000849s)
+[2020.03.29-14.10.15:075][489]LogAIModule: Creating AISystem for world Map_main_menu
+[2020.03.29-14.10.15:075][489]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2020.03.29-14.10.15:075][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_main_menu.Map_main_menu to /Game/Maps/UEDPIE_0_Map_main_menu.Map_main_menu (0.001681s)
+[2020.03.29-14.10.15:101][489]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2020.03.29-14.10.15:101][489]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.29-14.10.15:101][489]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.29-14.10.15:101][489]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.29-14.10.15:101][489]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.29-14.10.15:101][489]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.29-14.10.15:101][489]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.29-14.10.15:101][489]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.29-14.10.15:101][489]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.29-14.10.15:102][489]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.29-14.10.15:102][489]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.29-14.10.15:128][489]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.29-14.10.15:128][489]LogAudioMixer: Display: Name: Casque (SteelSeries Arctis 5 Game)
+[2020.03.29-14.10.15:128][489]LogAudioMixer: Display: Is Default: Yes
+[2020.03.29-14.10.15:128][489]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.29-14.10.15:128][489]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.29-14.10.15:128][489]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.29-14.10.15:128][489]LogAudioMixer: Display: Channel Order:
+[2020.03.29-14.10.15:128][489]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.29-14.10.15:128][489]LogAudioMixer: Display: 1: FrontRight
+[2020.03.29-14.10.15:139][489]LogAudioMixer: Display: Using Audio Device Casque (SteelSeries Arctis 5 Game)
+[2020.03.29-14.10.15:140][489]LogInit: FAudioDevice initialized.
+[2020.03.29-14.10.15:146][489]LogLoad: Game class is 'GameModeBase'
+[2020.03.29-14.10.15:147][489]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_main_menu.Map_main_menu up for play (max tick rate 60) at 2020.03.29-16.10.15
+[2020.03.29-14.10.15:147][489]LogWorld: Bringing up level for play took: 0.000262
+[2020.03.29-14.10.15:147][489]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.03.29-14.10.15:150][489]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map_main_menu 0,611
+[2020.03.29-14.10.15:150][489]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu' with GeneratedClass '/Game/Maps/Map_main_menu.Map_main_menu_C' with ClassGeneratedBy '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu'
+[2020.03.29-14.10.22:676][941]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.29-14.10.22:676][941]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.29-14.10.22:676][941]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu' with GeneratedClass '/Game/Maps/Map_main_menu.Map_main_menu_C' with ClassGeneratedBy '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu'
+[2020.03.29-14.10.22:676][941]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.29-14.10.22:676][941]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_main_menu
+[2020.03.29-14.10.22:676][941]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.29-14.10.22:676][941]LogWorld: UWorld::CleanupWorld for Map_main_menu, bSessionEnded=true, bCleanupResources=true
+[2020.03.29-14.10.22:676][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-14.10.22:684][941]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.29-14.10.22:684][941]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu' with GeneratedClass '/Game/Maps/Map_main_menu.Map_main_menu_C' with ClassGeneratedBy '/Game/Maps/Map_main_menu.Map_main_menu:PersistentLevel.Map_main_menu'
+[2020.03.29-14.10.22:688][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.29-14.10.22:719][941]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.29-14.10.22:721][941]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.29-14.10.22:724][941]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.03.29-14.10.22:785][945]LogPlayLevel: Display: Destroying online subsystem :Context_13
