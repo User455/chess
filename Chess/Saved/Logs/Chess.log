@@ -1023,3 +1023,20 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.31-17.49.51:906][754]LogSavePackage: Moving '../../../../../GitHub/chess/Chess/Saved/ChessConstructor1D9216D049249531A04D7BAA2848FB4D.tmp' to '../../../../../GitHub/chess/Chess/Content/Blueprints/ChessConstructor.uasset'
 [2020.03.31-17.49.51:936][754]AssetCheck: New page: Asset Save: ChessConstructor
 [2020.03.31-17.49.51:936][754]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/ChessConstructor.ChessConstructor
+[2020.03.31-18.59.09:947][679]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.03.31-18.59.12:991][688]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.03.31-19.16.49:987][836]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.03.31-19.57.10:434][ 51]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.03.31-20.20.08:292][165]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.03.31-20.24.36:696][966]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.03.31-20.26.35:869][322]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.03.31-20.28.18:543][628]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.03.31-20.28.53:713][733]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.03.31-22.00.08:915][ 64]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.01-06.21.08:622][690]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.01-06.21.14:570][705]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.01-06.23.01:684][ 24]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.01-07.50.27:114][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ChessConstructor" FILE="../../../../../GitHub/chess/Chess/Content/Blueprints/ChessConstructor.uasset" SILENT=true
+[2020.04.01-07.50.27:171][ 58]LogSavePackage: Moving '../../../../../GitHub/chess/Chess/Saved/ChessConstructorE5A3BEA04143A576FA25BC8F83D8867D.tmp' to '../../../../../GitHub/chess/Chess/Content/Blueprints/ChessConstructor.uasset'
+[2020.04.01-07.50.27:203][ 58]AssetCheck: New page: Asset Save: ChessConstructor
+[2020.04.01-07.50.27:203][ 58]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/ChessConstructor.ChessConstructor
